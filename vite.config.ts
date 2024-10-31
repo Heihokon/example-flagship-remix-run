@@ -21,4 +21,7 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
+  ssr: {
+    noExternal: ['@flagship.io/js-sdk', '@flagship.io/react-sdk']
+  }
 });

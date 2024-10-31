@@ -2,6 +2,10 @@
 
 - 📖 [Remix docs](https://remix.run/docs)
 
+## Getting Started
+
+Set your `ENV_ID` and `API_KEY` in `app/fs.ts` file and in `app/root.tsx` file.
+
 ## Development
 
 Run the dev server:
